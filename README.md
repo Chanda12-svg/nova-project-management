@@ -21,7 +21,7 @@ A modern, full-stack project management application with Kanban board functional
 - **Database:** PostgreSQL (Neon), Prisma ORM
 - **Authentication:** NextAuth with JWT strategy
 
-##  Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -45,9 +45,6 @@ npx prisma generate
 
 # Run database migrations
 npx prisma migrate dev
-
-# Seed the database
-npm run seed
 
 # Start development server
 npm run dev
