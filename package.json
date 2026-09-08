@@ -7,29 +7,26 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postinstall": "prisma generate",
-    "seed": "tsx seed.ts"
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@auth/prisma-adapter": "^2.7.4",
-    "next": "16.0.10",
+    "@prisma/client": "^5.22.0",
+    "next": "15.0.3",
     "next-auth": "^5.0.0-beta.25",
     "react": "19.0.0",
-    "react-dom": "19.0.0",
-    "@prisma/client": "^5.22.0"
+    "react-dom": "19.0.0"
   },
-    "devDependencies": {
+  "devDependencies": {
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.1",
     "@types/react-dom": "^19.0.2",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.17.0",
-    "eslint-config-next": "16.0.0",
+    "eslint-config-next": "15.0.3",
     "postcss": "^8.4.49",
     "prisma": "^5.22.0",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5.7.2",
-    "tsx": "^4.19.2"
-
+    "typescript": "^5.7.2"
   }
 }
