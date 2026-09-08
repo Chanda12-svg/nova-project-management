@@ -1,32 +1,33 @@
 {
-  "name": "nova",
-  "version": "0.1.0",
+  "name": "nova-project-management",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "seed": "npx tsx seed.ts",
-    "postinstall": "prisma skills sync || exit 0"
+    "lint": "next lint",
+    "postinstall": "prisma generate",
+    "seed": "tsx seed.ts"
   },
   "dependencies": {
-    "@prisma/client": "^5.22.0",
-    "next": "16.3.4",
-    "next-auth": "^5.0.0-beta.32",
-    "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "@auth/prisma-adapter": "^2.7.4",
+    "next": "16.0.0",
+    "next-auth": "^5.0.0-beta.25",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "@prisma/client": "^5.22.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.3.4",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "16.0.0",
+    "postcss": "^8.4.49",
     "prisma": "^5.22.0",
-    "tailwindcss": "^4",
-    "tsx": "^4.23.13",
-    "typescript": "^5"
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
+    "tsx": "^4.19.2"
   }
 }
