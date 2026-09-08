@@ -47,6 +47,4 @@ npx prisma generate
 npx prisma migrate dev
 
 # Start development server
-npm run dev
-
-
+npm run dev\
