@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 import type { Config } from "tailwindcss";
 
 const config: Config = {
